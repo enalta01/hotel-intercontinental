@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Intercontinental</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+</head>
+<body>
+    <!--navegacion vas escondida pero verticalmente-->
+    <nav>
+        <h1><a href="#"><img src="images/logo.png" alt="marca hotel" title="hotel intercontinental" width="300"></a></h1>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#instalaciones">Instalaciones</a></li>
+            <li><a href="#habitaciones">Habitciones</a></li>
+            <li><a href="#deporte">Deporte y Ocio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div>
+            <spam><a href=""><img src="images/icono-arg.png" alt="icono argentina" width="20" title="arg"></a></spam>
+            <spam><a href=""><img src="images/icono-ing.png" alt="icono inglaterra" width="20" title="ing"></a></spam>
+        </div>
+    </nav>
+
+    <!--slider de fotos, mas reserva-->
+    <header>
+          <div class="bxslider">
+            <div><img src="images/slider-02.jpg" title="Funky roots"></div>
+            <div><img src="images/slider-03.jpg" title="The long and winding road"></div>
+            <div><img src="images/slider-04.jpg" title="Happy trees"></div>
+          </div>
+        <form action="procesar-info.php" method="post">
+            <input type="text" name="nombre" autofocus="true" placeholder="Nombre y Apellido">
+            <input type="email" placeholder="email" requireds>
+            <label for="">ingreso</label>
+            <input type="date" name="check-in">
+            <label for="">egreso</label>
+            <input type="date" name="check-out">
+            <select name="Habitción" id="">
+                <option value="">suite presidencial</option>
+                <option value="">suite king</option>
+                <option value="">suite economica</option>
+            </select>
+            <input type="SUBMIT" value="RESERVAR">
+           </form>
+    </header>
+    <main>
+        <!--instalaciones-->
+        <section id="instalaciones"> 
+            <H2>Instalaciones</H2>
+            <article>
+                <img src="images/no-fumadores.png" alt="prohido fumar" title="prohibido fumar" width="100">
+                <h3>Habitaciones no fumadores</h3>
+                <p>Hemos diseñado habitaciones específicas para nuestros clientes fumadores para que puedan
+                   llevar a cabo dicha acción sin perjudicar a los demás y sin tenes repercusión en el medio ambiente</p>
+            </article>
+            <article>
+                <img src="images/ascensor.png" alt="ascensor" title="ascensor" width="100">
+                <h3>Ascensor</h3>
+                <p>Tambien hemos construido ascensores a lo largo del complejo para una mayor comodidad de
+                   todas las personas que habitan el hotel, ya sea nuestro personal o para nuestros clientes </p>
+            </article>
+            <article>
+                <img src="images/aparcamiento.png" alt="aparcamiento" title="aparcamiento" width="100">
+                <h3>Aparcamiento Seguro</h3>
+                <p>Nuestro aparcamiento esa sumamente equipado para proporcionar la mejor seguridad
+                   posible a su móvil con cámaras de seguridad y guardias las 24 h del dia </p>
+            </article>
+        </section>
+        <hr>
+        <!--habitaciones-->
+        <!--poner boton de reservas-->
+        
+        <section id="habitaciones"> 
+            <h2>Habitaciones</h2>
+            <article>
+                <img src="images/pieza-1.jpg" alt="suite presindecial" title="suite presindecial" width="200">
+                <h3>Suite Presidencial</h3>
+                <p>suite presindecial...</p>
+                <a href="#modal-suite-presidencial"> ver[+]</a>
+            </article>
+            <article>
+                <img src="images/pieza-2.jpg" alt="Suite económica" title="Suite económica" width="200">
+                <h3>Suite económica</h3>
+                <p>viene equipada con...</p>
+                <a href="#modal-suite-economica">ver[+]</a>
+            </article>
+            <article>
+                <img src="images/pieza-3.jpg" alt="Suite King" title="Suite King" width="200">
+                <h3>Suite King</h3>
+                <p>viene equipada con ...</p>
+                <a href="#modal-suite-king">ver[+]</a>
+            </article>
+            <form action="procesar-info.php" method="post">
+                <input type="text" name="nombre" autofocus="true" placeholder="Nombre y Apellido">
+                <input type="email" placeholder="email" requireds>
+                <label for="">ingreso</label>
+                <input type="date" name="check-in">
+                <label for="">egreso</label>
+                <input type="date" name="check-out">
+                <select name="Habitción" id="">
+                    <option value="">suite presidencial</option>
+                    <option value="">suite king</option>
+                    <option value="">suite economica</option>
+                </select>
+                <input type="SUBMIT" value="RESERVAR">
+               </form>
+        </section>
+        <hr>
+        <!--deporte-->
+        <section id="deporte"> 
+        <h3>Deporte y Ocio</h3>
+        <article>
+            <img src="images/spa.jpg" alt="spa" title="spa" width="200">
+            <p>Spa y balneario: Para nuestros clientes que desen un descanso de su rutina y puedan relajarse y renovarse.</p>
+        </article>
+        <article>
+            <img src="images/sauna.jpg" alt="sauna" title="sauna" width="200">
+            <p>Sauna: Nuestras mejores piedras con minerales calientan nuestro sauna para una mayor y mejor eliminación de toxinas y purificacón.</p>
+        </article>
+        <article>
+            <img src="images/baño-turco.jpg" alt="baño turco" title="baño turco" width="200">
+            <p>Baño turco: El mejor del mundo al alcance de su mano por parte de Intercontinental Miami, preparado para usted</p>
+        </article>
+        </section>
+        <!--contactos-->
+        <section id="contacto"> 
+        </section>
+        <hr>
+
+        <!--contacto / vamos a tratar de poner iconos-->
+
+        <aside id="contacto">
+            <div>
+                <img src="images/logo.png" alt="marca" title="hotel intercontinental" width="200">
+                <br>
+                <div>
+                    <img src="images/location.png" alt="locacion" width="30">
+                    <p>Blvd Perez Cuesta esq. Acceso Este | Mendoza ,M5521AAR, Argentina</p>
+                    <img src="images/tel.png" alt="telefono"    width="30">
+                    <p>+54-261-5218800</p>
+                </div>
+            </div>
+           <div>
+            <a href="https://www.facebook.com/InterContinentalMDZ/"><img src="images/facebook.png" alt="facebook" width="50"></a>
+            <a href="https://www.instagram.com/intercontinental_mendoza/?hl=es-la"><img src="images/instagram.png" alt="nstagram" width="50"></a>
+            <a href="https://twitter.com/interconhotels?lang=es"><img src="images/twitter.png" alt="twitter" width="50"></a>
+           </div>
+           <div>
+            <form action="procesar-fromulario.php" method="post">
+              <input type="text" placeholder="Nombre y apellido">
+              <input type="email" placeholder="Email">
+              <textarea name="mensaje" id="" cols="30" rows="10">
+                Tu mensaje...
+              </textarea>
+              <input type="submit" value="Enviar">
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13399.66318365893!2d-68.8006155!3d-32.9003945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2caadbcbdd8dd03!2sInterContinental%20Mendoza!5e0!3m2!1ses!2sar!4v1585088607409!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+    </footer>
+
+    <!--<div id="modal-suite-presidencial">
+        <a href="#">cerrar</a>
+        <img src="images/suite-prec-01.jpg" alt="suite" title="suite" width="200">
+        <img src="images/suite-prec-02.jpg" alt="suite" title="suite" width="200">
+        <img src="images/suite-prec-03.jpg" alt="suite" title="suite" width="200">
+        <h3>suite presidencial</h3>
+        <p>Esta muy bien equipada con 2 habitaciones, 2 baños, vista excelente al mar y muy bien ubicada dentro del hotel.
+        Espaciosa y con servicios exclusivos para la misma en conjunto con otras pocas.</p>
+    </div>
+    <div id="modal-suite-economica">
+        <a href="#">cerrar</a>
+        <img src="images/suite-econ-01.jpg" alt="suite" title="suite" width="200">
+        <img src="images/suite-econ-02.jpg" alt="suite" title="suite" width="200">
+        <img src="images/suite-econ-03.jpg" alt="suite" title="suite" width="200">
+        <h3>suite económica</h3>
+        <p>Viene equipada con cocina, 2 baños, 2 habitaciones, botiquin de primeros auxilios y uno de los mejores
+        ventanales que se puede pedir para una suite.</p>
+    </div>
+    <div id="modal-suite-king">
+        <a href="#">cerrar</a>
+        <img src="images/suite-king-01.jpg" alt="suite" title="suite" width="200">
+        <img src="images/suite-king-02.jpg" alt="suite" title="suite" width="200">
+        <img src="images/suite-king-03.jpg" alt="suite" title="suite" width="200">
+        <h3>suite king</h3>
+        <p>Viene equipada con 2 televisores full hd(uno para cada pieza), tragos alcoholicos en la nevera, servicios gratuitos
+        a la habitación las 24 horas y salida directa a la plata y los restaurantes del hotel.</p>
+    </div> -->
+    
+</body>
+</html>
